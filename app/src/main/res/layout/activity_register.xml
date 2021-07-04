@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_register"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:titleTextColor="@color/colorPureWhite" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edt_name_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/button_style_border_square"
+                    android:hint="Name"
+                    android:maxLines="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorTextTwo" />
+
+                <EditText
+                    android:id="@+id/edt_phone_number_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/button_style_border_square"
+                    android:hint="Phone Number"
+                    android:maxLines="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorTextTwo" />
+
+                <EditText
+                    android:id="@+id/edt_email_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/button_style_border_square"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorTextTwo" />
+
+                <EditText
+                    android:id="@+id/edt_password_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/button_style_border_square"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorTextTwo" />
+
+                <EditText
+                    android:id="@+id/edt_confirm_password_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/button_style_border_square"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorTextTwo" />
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/button_style_border_square"
+            android:text="REGISTER"
+            android:layout_margin="4dp"
+            android:textColor="@color/colorText" />
+
+        <Button
+            android:id="@+id/btn_login_register"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_style_border_square"
+            android:text="LOGIN"
+            android:textColor="@color/colorText" />
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

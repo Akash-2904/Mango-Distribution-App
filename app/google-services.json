@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "677274689646",
+    "firebase_url": "https://mangodistributionsystem.firebaseio.com",
+    "project_id": "mangodistributionsystem",
+    "storage_bucket": "mangodistributionsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677274689646:android:d6a84bed6097d831",
+        "android_client_info": {
+          "package_name": "com.ajit.mangodistributionsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677274689646-gqqamlcu60f4s45m4f5sqlt1h4un975t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajit.mangodistributionsystem",
+            "certificate_hash": "c4c656aeaa2845bc9d2f1a0405404c4bd8fb4372"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNFP9NFdsgdpT9eQLZAezPjsK5Vc264KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677274689646-1tvddnq5l1dd0tp9dmk46vi2n0ulpnff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

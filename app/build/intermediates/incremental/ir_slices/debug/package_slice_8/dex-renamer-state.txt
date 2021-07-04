@@ -1,0 +1,4 @@
+#Wed Apr 10 09:19:18 IST 2019
+base.0=E\:\\android_studio\\android_studio_projects\\MangoDistributionSystem\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex
